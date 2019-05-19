@@ -13,7 +13,7 @@ public class TestHerokuSpringApplication {
     @RequestMapping("/")
     @ResponseBody
     String home(){
-        return "Hello World!";
+        return "Hello Everyone!";
     }
 
 	public static void main(String[] args) {
